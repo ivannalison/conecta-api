@@ -1,0 +1,28 @@
+# Dependências
+node_modules/
+
+# Build
+dist/
+
+# Variáveis de ambiente (segredos) — nunca versionar
+.env
+.env.*
+!.env.example
+!.env.seed.example
+
+# Conteúdo do site (textos ainda não aprovados) — fica só na máquina local
+scripts/conteudo.json
+
+# Logs e sistema
+*.log
+npm-debug.log*
+.DS_Store
+Thumbs.db
+
+# Testes
+coverage/
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
